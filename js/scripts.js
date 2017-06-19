@@ -50,7 +50,7 @@ $smooth.click(function () {
     if (duration == 300) {
         $("html, body").animate({ scrollTop: 0 }, duration);
     } else {
-        $("html, body").animate({ scrollTop: $(normalLink).offset().top }, 1000);
+        $("html, body").animate({ scrollTop: $(normalLink).offset().top-50 }, 1000);
     }
 });
 
